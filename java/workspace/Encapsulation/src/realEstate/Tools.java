@@ -1,4 +1,4 @@
-package cs.mcla.edu.realEstate;
+package realEstate;
 
 class Tools 
 {

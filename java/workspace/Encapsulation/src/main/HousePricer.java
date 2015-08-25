@@ -1,8 +1,8 @@
-package cs.mcla.edu.main;
+package main;
 
 import java.awt.Color;
 
-import cs.mcla.edu.realEstate.House;
+import realEstate.House;
 
 public class HousePricer 
 {

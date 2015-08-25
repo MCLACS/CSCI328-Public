@@ -1,4 +1,4 @@
-package cs.mcla.edu.realEstate;
+package realEstate;
 
 import java.awt.Color;
 import java.text.NumberFormat;

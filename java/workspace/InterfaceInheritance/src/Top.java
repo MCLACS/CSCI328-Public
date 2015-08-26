@@ -6,9 +6,9 @@ public class Top implements ICanGenerateNum
 	public int generate(int from, int to) 
 	{
 		if (to <= from)
-			throw new Error("to must be greater than from");
+			throw new IllegalArgumentException("to must be greater than from");
 		if (from < 0 || to < 0)
-			throw new Error("from and to must be positive");
+			throw new IllegalArgumentException("from and to must be positive");
 			
 		return to;
 	}

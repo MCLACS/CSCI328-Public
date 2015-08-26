@@ -3,6 +3,7 @@ import java.util.Comparator;
 public class StringByLength implements Comparator<String>
 {
 	private static Comparator<String> m_instance = null;
+	private StringByLength() {};
 	public static Comparator<String> getInstance()
 	{
 		if (m_instance == null)

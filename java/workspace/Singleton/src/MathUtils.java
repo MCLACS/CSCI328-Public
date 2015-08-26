@@ -4,7 +4,8 @@ import java.util.Random;
 
 public class MathUtils 
 {	
-	private static MathUtils m_instance = null;	
+	private static MathUtils m_instance = null;
+	private MathUtils() {}
 	public static MathUtils getInstance()
 	{
 		if (m_instance == null)
@@ -13,9 +14,6 @@ public class MathUtils
 	}
 
 	private static Random m_rand = new Random();
-	
-	private MathUtils()
-	{}
 	
 	public double ave(List<Double> numbers)
 	{

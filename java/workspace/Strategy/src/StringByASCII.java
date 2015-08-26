@@ -4,6 +4,7 @@ import java.util.Comparator;
 public class StringByASCII implements Comparator<String> 
 {
 	private static Comparator<String> m_instance = null;
+	private StringByASCII() {}	
 	public static Comparator<String> getInstance()
 	{
 		if (m_instance == null)

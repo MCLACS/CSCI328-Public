@@ -23,10 +23,7 @@ public class Main
 		ITransformation norm = new Normalize();
 		System.out.println("Normalize: " + norm.transform(numbers) + "\n");		
 		
-		CompositeTransformation composite = new CompositeTransformation();		
-		composite.add(add);
-		composite.add(multi);
-		composite.add(shuffle);
+		ITransformation composite = Builder.getInstance().buildTransformation();
 		List<Double> newNumbers = composite.transform(numbers);
 		System.out.println("Composite: " + newNumbers + "\n");	
 		

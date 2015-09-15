@@ -2,9 +2,9 @@ package realEstate;
 
 class Tools 
 {
-	public static double ftToInc(double ft)
+	public double ftToInc(double ft)
 	{ return ft / 12; }
 	
-	public static double incToFt(double inc)
+	public double incToFt(double inc)
 	{ return inc * 12; }
 }

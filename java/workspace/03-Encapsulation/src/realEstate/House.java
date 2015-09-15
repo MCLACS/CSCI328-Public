@@ -10,6 +10,7 @@ public class House
     private int m_numFloors;
     private double m_sqrIn;
     private SimpleColor m_color;
+    private Tools m_tools;
 
     private class SimpleColor
     {
@@ -50,7 +51,8 @@ public class House
         m_numWindows = numWindows;
         m_numDoors = numDoors;
         m_numFloors = numFloors;
-        m_sqrIn = Tools.ftToInc(sqrFt);
+        m_tools = new Tools();
+        m_sqrIn = m_tools.ftToInc(sqrFt);
         m_color = new SimpleColor(c);
     }
 
@@ -69,7 +71,7 @@ public class House
     { return m_numFloors; }
 
     public double getSqrFt()
-    { return Tools.incToFt(m_sqrIn); }
+    { return m_tools.incToFt(m_sqrIn); }
 
     public String getColor()
     { return m_color.toString(); }

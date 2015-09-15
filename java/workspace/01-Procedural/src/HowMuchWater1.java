@@ -27,7 +27,7 @@ public class HowMuchWater1
 	private static void output(double water)
 	{
 		NumberFormat fmt = NumberFormat.getNumberInstance();
-		System.out.printf("You will need %s gallons of water.", fmt.format(water));
+		System.out.printf("You will need %s pounds of water.", fmt.format(water));
 	}
 	
 	public static void main(String[] args) 

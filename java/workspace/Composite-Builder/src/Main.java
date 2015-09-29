@@ -27,6 +27,9 @@ public class Main
 		List<Double> newNumbers = composite.transform(numbers);
 		System.out.println("Composite: " + newNumbers + "\n");	
 		
-		System.out.println("Composite normalized: " + norm.transform(newNumbers) + "\n");		
+		System.out.println("Composite normalized: " + norm.transform(newNumbers) + "\n");	
+
+		ITransformation norm = new FancyNormalizer();
+		System.out.println("Norm: " + norm.transform(numbers) + "\n");	
 	}
 }

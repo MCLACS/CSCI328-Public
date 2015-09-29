@@ -17,6 +17,11 @@ public class CompositeTransformation implements ITransformation
 		return to;
 	}
 
+	protected List<ITransformation> getTransformations()
+	{
+		return m_transformations;
+	}
+	
 	public void add(ITransformation t)
 	{
 		m_transformations.add(t);

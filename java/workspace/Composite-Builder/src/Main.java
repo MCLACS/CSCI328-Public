@@ -29,7 +29,7 @@ public class Main
 		
 		System.out.println("Composite normalized: " + norm.transform(newNumbers) + "\n");	
 
-		ITransformation norm = new FancyNormalizer();
-		System.out.println("Norm: " + norm.transform(numbers) + "\n");	
+		ITransformation norm2 = Builder.getInstance().buildTransformation2();
+		System.out.println("Norm: " + norm2.transform(numbers) + "\n");	
 	}
 }

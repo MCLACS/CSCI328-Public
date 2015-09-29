@@ -23,4 +23,15 @@ public class Builder
 		return composite;
 	}
 
+	public ITransformation buildTransformation2()
+	{
+	
+		ITransformation min = new Min();
+		ITransformation max = new Max();
+		CompositeTransformation composite = new FancyNormalizer2();
+		composite.add(min);
+		composite.add(max);
+		return composite;
+	}
+
 }

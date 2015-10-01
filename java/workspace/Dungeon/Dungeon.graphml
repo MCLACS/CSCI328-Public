@@ -16,7 +16,6 @@
     <data key="d0"/>
     <node id="n0">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
           <y:Geometry height="101.0" width="226.0" x="318.875" y="236.0"/>
@@ -39,7 +38,6 @@ String interactWith();</y:MethodLabel>
     </node>
     <node id="n1">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
           <y:Geometry height="28.0" width="243.0" x="108.875" y="147.0"/>
@@ -61,7 +59,6 @@ String interactWith();</y:MethodLabel>
     </node>
     <node id="n2">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
           <y:Geometry height="28.0" width="100.0" x="381.875" y="147.0"/>
@@ -83,7 +80,6 @@ String interactWith();</y:MethodLabel>
     </node>
     <node id="n3">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
           <y:Geometry height="28.0" width="100.0" x="150.0" y="58.0"/>
@@ -105,7 +101,6 @@ String interactWith();</y:MethodLabel>
     </node>
     <node id="n4">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
           <y:Geometry height="28.0" width="140.0" x="280.0" y="58.0"/>
@@ -127,7 +122,6 @@ String interactWith();</y:MethodLabel>
     </node>
     <node id="n5">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
           <y:Geometry height="60.0" width="100.0" x="511.875" y="131.0"/>
@@ -149,7 +143,6 @@ String interactWith();</y:MethodLabel>
     </node>
     <node id="n6">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
           <y:Geometry height="28.0" width="100.0" x="450.0" y="58.0"/>
@@ -171,7 +164,6 @@ String interactWith();</y:MethodLabel>
     </node>
     <node id="n7">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
           <y:Geometry height="28.0" width="100.0" x="275.9375" y="0.0"/>
@@ -193,20 +185,19 @@ String interactWith();</y:MethodLabel>
     </node>
     <node id="n8">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:UMLClassNode>
-          <y:Geometry height="28.0" width="100.0" x="20.0" y="58.0"/>
+          <y:Geometry height="53.833333333333314" width="100.0" x="20.0" y="58.0"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.1328125" modelName="custom" textColor="#000000" visible="true" width="56.609375" x="21.6953125" y="3.0">Builder<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="13" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="19.1328125" modelName="custom" textColor="#000000" visible="true" width="56.609375" x="21.6953125" y="25.96875">Builder<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
               <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="-0.03703090122767855" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
             </y:ModelParameter>
           </y:NodeLabel>
-          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="" use3DEffect="true">
+          <y:UML clipContent="true" constraint="" omitDetails="false" stereotype="singleton" use3DEffect="true">
             <y:AttributeLabel/>
             <y:MethodLabel/>
           </y:UML>
@@ -215,7 +206,6 @@ String interactWith();</y:MethodLabel>
     </node>
     <edge id="e0" source="n1" target="n0">
       <data key="d8"/>
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-60.75" sy="14.0" tx="-90.4" ty="-50.5">
@@ -230,7 +220,6 @@ String interactWith();</y:MethodLabel>
     </edge>
     <edge id="e1" source="n1" target="n0">
       <data key="d8"/>
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="60.75" sy="14.0" tx="-45.19999999999999" ty="-50.5">
@@ -245,7 +234,6 @@ String interactWith();</y:MethodLabel>
     </edge>
     <edge id="e2" source="n2" target="n0">
       <data key="d8"/>
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="14.0" tx="1.4210854715202004E-14" ty="-50.5"/>
@@ -257,7 +245,6 @@ String interactWith();</y:MethodLabel>
     </edge>
     <edge id="e3" source="n3" target="n1">
       <data key="d8"/>
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="14.0" tx="-30.375" ty="-14.0"/>
@@ -269,7 +256,6 @@ String interactWith();</y:MethodLabel>
     </edge>
     <edge id="e4" source="n4" target="n1">
       <data key="d8"/>
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="14.0" tx="30.375" ty="-14.0">
@@ -284,7 +270,6 @@ String interactWith();</y:MethodLabel>
     </edge>
     <edge id="e5" source="n5" target="n0">
       <data key="d8"/>
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="30.0" tx="45.20000000000002" ty="-50.5">
@@ -307,7 +292,6 @@ String interactWith();</y:MethodLabel>
     </edge>
     <edge id="e6" source="n6" target="n1">
       <data key="d8"/>
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="14.0" tx="91.125" ty="-14.0">
@@ -322,16 +306,14 @@ String interactWith();</y:MethodLabel>
     </edge>
     <edge id="e7" source="n8" target="n1">
       <data key="d8"/>
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="14.0" tx="-91.125" ty="-14.0">
-            <y:Point x="70.0" y="101.0"/>
+          <y:Path sx="0.0" sy="16.083333333333343" tx="-91.125" ty="-14.0">
             <y:Point x="139.25" y="101.0"/>
           </y:Path>
           <y:LineStyle color="#000000" type="dashed" width="1.0"/>
           <y:Arrows source="none" target="plain"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="39.759765625" x="49.3701171875" y="17.500919308188045">builds<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="39.759765625" x="-0.6400146484375" y="2.5302161831880454">builds<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -345,10 +327,9 @@ String interactWith();</y:MethodLabel>
     </edge>
     <edge id="e8" source="n7" target="n8">
       <data key="d8"/>
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
-          <y:Path sx="-25.0" sy="14.0" tx="0.0" ty="-14.0">
+          <y:Path sx="-25.0" sy="14.0" tx="0.0" ty="-26.916666666666654">
             <y:Point x="300.9375" y="43.0"/>
             <y:Point x="70.0" y="43.0"/>
           </y:Path>
@@ -368,7 +349,6 @@ String interactWith();</y:MethodLabel>
     </edge>
     <edge id="e9" source="n7" target="n0">
       <data key="d8"/>
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="25.0" sy="14.0" tx="90.40000000000009" ty="-50.5">

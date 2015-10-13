@@ -38,3 +38,13 @@ local.properties
 
 # TeXlipse plugin
 .texlipse
+
+*.tii
+*.tis
+*.frq
+*.fnn
+*.fdx
+*.prx
+*.fdt
+*.fnm
+*.nrm

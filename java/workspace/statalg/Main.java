@@ -28,7 +28,9 @@ public class Main
 
        CompositeAlg c = new CompositeAlg();
        c.addAlg(m);
-       c.addAlg(a);
-       System.out.println(c.process(l).get(0)); // should be 30
+       c.addAlg(m);
+       c.addAlg(m);
+       c.addAlg(s);
+       System.out.println(c.process(l)); // should be 30
     }
 }

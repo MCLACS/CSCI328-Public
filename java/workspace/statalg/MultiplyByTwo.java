@@ -3,7 +3,6 @@ import java.util.List;
 
 public class MultiplyByTwo implements IStatAlg
 {
-
     @Override
     public List<Double> process(List<Double> data)
     {

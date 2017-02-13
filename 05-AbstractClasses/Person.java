@@ -10,7 +10,8 @@ public class Person extends AbstractPerson
 	{
 		super(first, last);
 	}
-		
+	
+	@Override	
 	public String getFullName()
 	{
 		return getFirst() + " " + getLast();

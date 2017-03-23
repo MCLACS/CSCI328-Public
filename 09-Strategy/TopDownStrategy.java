@@ -11,7 +11,7 @@ public class TopDownStrategy implements IGuessStrategy
             m_lastGuess = m_lastGuess - 1;
             
         if (m_lastGuess < start)
-            m_lastGuess = start;
+            throw new IllegalStateException("Stop asking!!");
             
         return m_lastGuess;
     }

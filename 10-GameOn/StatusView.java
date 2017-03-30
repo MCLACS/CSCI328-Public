@@ -20,8 +20,8 @@ class StatusView extends JPanel implements IGameView
     if (m_objects.size()> 1)
     {
         m_status.setText(String.format("X: %s Y:%s -- EX: %s EY: %s",
-          m_objects.get(0).getX(), m_objects.get(0).getX(),
-            m_objects.get(1).getX(), m_objects.get(1).getX()));
+          m_objects.get(0).getX(), m_objects.get(0).getY(),
+            m_objects.get(1).getX(), m_objects.get(1).getY()));
     }
   }
 

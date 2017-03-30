@@ -65,4 +65,8 @@ public abstract class GameObject implements IGameObject
   @Override
   public int getDY()
   { return m_dY; }
+
+  @Override
+  public void keyPressed(char c) {}
+
 }

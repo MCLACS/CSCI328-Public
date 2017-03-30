@@ -11,6 +11,8 @@ public class GameView extends JPanel implements IGameView
     {
       setOpaque(true);
       setIgnoreRepaint(true);
+      setFocusable(true);
+      requestFocusInWindow();
       m_objects = objects;
     }
 

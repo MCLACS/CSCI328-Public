@@ -12,4 +12,5 @@ public interface IGameObject
   public int getH();
   public int getDX();
   public int getDY();
+  public void keyPressed(char c);
 }

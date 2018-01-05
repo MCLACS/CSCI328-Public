@@ -1,8 +1,8 @@
-public class AskMain
+public class Main
 {
     public static void main(String args[])
     {
-        new AskMain().go();
+        new Main().go();
     }
     
     public void go()

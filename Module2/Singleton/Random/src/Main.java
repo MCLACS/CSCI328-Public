@@ -1,8 +1,8 @@
-public class RandomMain
+public class Main
 {
     public static void main(String[] args)
     {
-        new RandomMain().go();
+        new Main().go();
     }
     
     private void go()

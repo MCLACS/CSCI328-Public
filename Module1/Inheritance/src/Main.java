@@ -1,10 +1,10 @@
 import java.util.*;
 
-public class GradersMain
+public class Main
 {
   public static void main(String[] args)
   {
-    GradersMain m = new GradersMain();
+    Main m = new Main();
     m.go();
   }
 

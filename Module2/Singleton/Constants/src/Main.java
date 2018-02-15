@@ -10,7 +10,7 @@ public class Main
     {
         double height = 66.0;
 
-        Triplet t = calcLengths(height, SkiConstants.getInstance());
+        Triplet t = calcLengths(height, SkiMogulConstants.getInstance());
         System.out.printf("Ski lengths %s:", t);
     }
     

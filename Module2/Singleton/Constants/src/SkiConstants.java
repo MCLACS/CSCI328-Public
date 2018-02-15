@@ -10,7 +10,6 @@ public class SkiConstants implements ISkiConstants
         if (m_instance == null)
         {
             m_instance = new SkiConstants();
-            //m_instance = new SkiMogulConstants();
         }
         return m_instance;
     }

@@ -15,7 +15,7 @@
           styleClass="root">
 
     <padding><Insets top="25" right="25" bottom="25" left="25"/></padding>
-    <!-- <gridLinesVisible>true</gridLinesVisible> -->
+    <gridLinesVisible>true</gridLinesVisible>
 
     <Text id="welcome-text"
           text="Welcome"

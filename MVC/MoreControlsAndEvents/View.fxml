@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<GridPane fx:controller="Controller"
+          xmlns:fx="http://javafx.com/fxml"
+          alignment="center"
+          hgap="10"
+          vgap="10"
+          styleClass="root">
+
+    <padding><Insets top="25" right="25" bottom="25" left="25"/></padding>
+    <!-- <gridLinesVisible>true</gridLinesVisible> -->
+
+    <Text id="title"
+          text="Master Converter"
+          GridPane.columnIndex="0"
+          GridPane.rowIndex="0"
+          GridPane.columnSpan="2"/>
+
+    <TextField fx:id="textField1"
+               text="0"
+               GridPane.columnIndex="0"
+               GridPane.rowIndex="1"
+               onAction="#handleValueChange1"/>
+
+    <ComboBox fx:id="comboBox1"
+              value = "Feet"
+              GridPane.columnIndex="1"
+              GridPane.rowIndex="1"
+              onAction="#handleListChange1">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Feet" />
+          <String fx:value="Inches" />
+          <String fx:value="Meters" />
+          <String fx:value="Centimeters" />
+        </FXCollections>
+      </items>
+    </ComboBox>
+
+    <TextField fx:id="textField2"
+               text="0"
+               GridPane.columnIndex="0"
+               GridPane.rowIndex="2"
+               onAction="#handleValueChange2"/>
+
+    <ComboBox fx:id="comboBox2"
+              value = "Inches"
+              GridPane.columnIndex="1"
+              GridPane.rowIndex="2"
+              onAction="#handleListChange2">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Feet" />
+          <String fx:value="Inches" />
+          <String fx:value="Meters" />
+          <String fx:value="Centimeters" />
+        </FXCollections>
+      </items>
+    </ComboBox>
+
+    <TextField fx:id="textField3"
+               text="0"
+               GridPane.columnIndex="0"
+               GridPane.rowIndex="3"
+               onAction="#handleValueChange3"/>
+
+    <ComboBox fx:id="comboBox3"
+              value = "Meters"
+              GridPane.columnIndex="1"
+              GridPane.rowIndex="3"
+              onAction="#handleListChange3">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Feet" />
+          <String fx:value="Inches" />
+          <String fx:value="Meters" />
+          <String fx:value="Centimeters" />
+        </FXCollections>
+      </items>
+    </ComboBox>
+
+    <TextField fx:id="textField4"
+               text="0"
+               GridPane.columnIndex="0"
+               GridPane.rowIndex="4"
+               onAction="#handleValueChange4"/>
+
+    <ComboBox fx:id="comboBox4"
+              value = "Centimeters"
+              GridPane.columnIndex="1"
+              GridPane.rowIndex="4"
+              onAction="#handleListChange4">
+      <items>
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Feet" />
+          <String fx:value="Inches" />
+          <String fx:value="Meters" />
+          <String fx:value="Centimeters" />
+        </FXCollections>
+      </items>
+    </ComboBox>
+
+    <stylesheets>
+      <URL value="@styles.css" />
+    </stylesheets>
+
+</GridPane>

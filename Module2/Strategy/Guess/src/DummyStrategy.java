@@ -1,8 +1,12 @@
+import java.util.*;
+
 public class DummyStrategy implements IGuessStrategy
 {
+    private Random m_rand = new Random();
+    
     @Override
-    public int guess(int start, int end)
+    public int guess()
     {
-        return (int)((end-start+1)/2.0);
+        return m_rand.nextInt(100) + 1;
     }
 }

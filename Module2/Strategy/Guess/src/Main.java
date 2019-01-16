@@ -11,33 +11,41 @@ public class Main
     
     public void go()
     {
-        int start = 1;
-        int end = 10;
-        int ans = m_rand.nextInt(end-start) + start;
-
+        int ans = m_rand.nextInt(100) +1;
+        System.out.printf("Start the game, don't tell anyone but the answer is %s%n", ans);
+        
         int guess1 = -1;
         int guess2 = -1;
-        
-        System.out.printf("Start the game, don't tell anyone but the answer is %s%n", ans);
 
-        IGuessStrategy strategy1 = new DummyStrategy();
-        IGuessStrategy strategy2 = new TopDownStrategy();
+        MindReader tom = makeTomTheReader();
+        MindReader sally = makeSallyTheReader();
     
         do
         {
-            guess1 = strategy1.guess(start, end);
-            guess2 = strategy2.guess(start, end);
+            guess1 = tom.readMind();
+            guess2 = sally.readMind();
             
-            System.out.printf("Strategy 1 guessed %s%n", guess1);
-            System.out.printf("Strategy 2 guessed %s%n", guess2);
+            System.out.printf("Tom guessed %s%n", guess1);
+            System.out.printf("Sally guessed %s%n", guess2);
             
         } while (guess1 != ans && guess2 !=ans);
             
         if (guess1 == ans)
-            System.out.println("Strategy 1 wins!");  
+            System.out.println("Tom wins!");  
 
         if (guess2 == ans)
-            System.out.println("Strategy 2 wins!");  
+            System.out.println("Sally wins!");  
 
     }
+    
+    private MindReader makeTomTheReader()
+    {
+        return new MindReader(new DummyStrategy());
+    }
+    
+    private MindReader makeSallyTheReader()
+    {
+        return new MindReader(new TopDownStrategy());
+    }
+    
 }
